@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>aspnet-XFiles.WebApi-2F89E797-1955-4110-A1BB-0BBA463FC453</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureADB2C.UI" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XFiles.Ef.Abstractions\XFiles.Ef.Abstractions.csproj" />
+    <ProjectReference Include="..\XFiles.Ef\XFiles.Ef.csproj" />
+    <ProjectReference Include="..\XFiles.Models.Abstractions\XFiles.Models.Abstractions.csproj" />
+    <ProjectReference Include="..\XFiles.Models\XFiles.Models.csproj" />
+  </ItemGroup>
+
+</Project>
