@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\XFiles.Ef.Abstractions\XFiles.Ef.Abstractions.csproj" />
+    <ProjectReference Include="..\XFiles.Models\XFiles.Models.csproj" />
   </ItemGroup>
 
 </Project>

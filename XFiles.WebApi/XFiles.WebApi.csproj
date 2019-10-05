@@ -14,6 +14,7 @@
     <ProjectReference Include="..\XFiles.Ef\XFiles.Ef.csproj" />
     <ProjectReference Include="..\XFiles.Models.Abstractions\XFiles.Models.Abstractions.csproj" />
     <ProjectReference Include="..\XFiles.Models\XFiles.Models.csproj" />
+    <ProjectReference Include="..\XFiles.Storage\XFiles.Storage.csproj" />
   </ItemGroup>
 
 </Project>
